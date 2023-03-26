@@ -2,13 +2,10 @@
 
 ````
 # On clone le dépot
-git clone 
+git clone https://github.com/samatarmoussa111/ud-archives.git
 
 # On se déplace dans le dossier
-cd cours-ajax
-
-# On se déplace dans le dossier
-cd cours-ajax
+cd ud-archives
 
 # On installe les dépendances !
 composer install
@@ -18,9 +15,6 @@ php bin/console doctrine:database:create
 
 # On exécute les migrations
 php bin/console doctrine:migrations:migrate
-
-# On exécute la fixture
-php bin/console doctrine:fixtures:load --no-interaction
 
 # On lance le serveur
 php bin/console server:run 
