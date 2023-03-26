@@ -1,6 +1,8 @@
 # Installation
 
 ````
+# On clone le dépot
+git clone 
 
 # On se déplace dans le dossier
 cd cours-ajax
